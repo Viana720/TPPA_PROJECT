@@ -1,0 +1,164 @@
+#container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.date-container, .date-container2, .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #4eff65;
+    color: #f8fafc;
+}
+
+.date-input {
+    width: auto;
+}
+
+.btn-custom  {
+    border: none;
+    background-color: #0bfdb4;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+.btn-custom:hover{
+    background-color: #0ae8a1;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+img {
+    height: 100%;
+    width: 200px;
+}
+
+#pag{
+   margin-top: 217px;
+   margin-left: 155px;
+}
+
+#conj {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+#conj2 {
+    display: flex;
+    position: relative;
+    margin-right: 50%;
+    z-index: 1;
+}
+
+#conj3 {
+    display: flex;
+    top: 320px;
+    left: -5px;
+    margin-left: 625px;
+    margin-bottom: 1000px;
+    position: absolute;
+    z-index: 2;
+}
+                                                   
+canvas {
+    background-color: white;
+}
+
+#card1 {
+    height: 540px;
+    width: 600px;
+    margin-top: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#card2 {
+    height: 300px;
+    width: 600px;
+    margin-top: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#card3 {
+    height: 408px;
+    width: 600px;
+    margin-top: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#card4 {
+    height: 570px;
+    width: 600px;
+    margin-top: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.form-step {
+display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-md-3 {
+    width: 30%; 
+}
+.col-md-4 {
+    width: 60%;  
+}
+
+.col-md-6 {
+    width: 48%;     
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#falha1{
+    width: 100%;
+}
+.dataTables_paginate {
+ display: none;
+}
+
+#example{
+    text-align: center;
+}
